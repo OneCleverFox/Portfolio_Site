@@ -289,3 +289,12 @@
 	});		
 
 })(jQuery);
+
+
+/*----------------------------------------------------- */
+  	/* Youtube Video
+   ------------------------------------------------------- */ 
+function playVideo() {
+    var container = document.querySelector('.video-container');
+    container.classList.add('playing');
+}
