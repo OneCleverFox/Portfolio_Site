@@ -19,12 +19,15 @@
    ================================================== -->
    <link rel="stylesheet" href="css/base.css">  
    <link rel="stylesheet" href="css/main.css">
-   <link rel="stylesheet" href="css/vendor.css">     
+   <link rel="stylesheet" href="css/vendor.css">
+   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+     
 
    <!-- script
    ================================================== -->   
 	<script src="js/modernizr.js"></script>
 	<script src="js/pace.min.js"></script>
+    
 
    <!-- favicons
 	================================================== -->
@@ -196,10 +199,12 @@
    	</div>
 
 
-    <div class="video-container">
-        
-        <iframe width="560" height="315" src="https://www.youtube.com/embed/MJbcegll9FQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-    </div><!-- Youtube Video -->
+       <button class="play-btn" onclick="playVideo()"><i class="fa fa-youtube-play"></i></button>
+       <div class="video-container">
+           <iframe id="video" src="https://www.youtube.com/embed/MJbcegll9FQ" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+       </div>
+       
+
 
 
    </section> <!-- /process-->    
@@ -827,7 +832,7 @@
 						</div>
 
 						<h3 class="stat-count">
-							1628
+							628
 						</h3>
 
 						<h5 class="stat-title">
@@ -859,7 +864,7 @@
 						</div>
 
 						<h3 class="stat-count">
-							7200
+							539
 						</h3>
 
 						<h5 class="stat-title">

@@ -294,7 +294,29 @@
 /*----------------------------------------------------- */
   	/* Youtube Video
    ------------------------------------------------------- */ 
-function playVideo() {
-    var container = document.querySelector('.video-container');
-    container.classList.add('playing');
+   function playmobil() {
+	var container = document.querySelector('.video-container');
+	container.classList.add('playing');
+  
+	var video = document.querySelector('#video');
+	video.src = video.src.replace("?autoplay=0", "?autoplay=1");
+  
+	document.addEventListener('click', function(event) {
+	  if (!container.contains(event.target)) {
+		container.classList.remove('playing');
+		video.src = video.src.replace("?autoplay=1", "?autoplay=0");
+	  }
+	});
+  }
+
+  function playVideo() {
+    var videoUrl = 'https://www.youtube.com/watch?v=MJbcegll9FQ';
+    window.open(videoUrl, '_blank');
 }
+
+  
+  
+  
+
+
+
