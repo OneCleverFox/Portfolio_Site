@@ -1754,24 +1754,65 @@ header .logo a {
 	}
 	
 	@media (max-width: 1024px) {
-	.play-btn, .youtube-text {
+	.play-btn {
 	font-size: 80px;
 	margin-top: 60px;
 	}
 	}
 	
 	@media (max-width: 768px) {
-	.play-btn, .youtube-text {
+	.play-btn {
 	font-size: 60px;
 	margin-top: 40px;
 	}
 	}
 	
 	@media (max-width: 600px) {
-	.play-btn, .youtube-text {
+	.play-btn {
 	font-size: 40px;
 	margin-top: 20px;
 	}
+}
+	@media (max-width: 1024px) {
+	.play-btn {
+	font-size: 80px;
+	margin-top: 60px;
+	}
+	}
+	
+	@media (max-width: 768px) {
+	.play-btn {
+	font-size: 60px;
+	margin-top: 40px;
+	}
+	}
+	
+	@media (max-width: 600px) {
+	.play-btn {
+	font-size: 40px;
+	margin-top: 20px;
+	}
+
+	}
+	@media (max-width: 1024px) {
+		.youtube-text {
+		font-size: 80px;
+		margin-top: 60px;
+		}
+		}
+		
+		@media (max-width: 768px) {
+		.youtube-text {
+		font-size: 20px;
+		margin-top: 40px;
+		}
+		}
+		
+		@media (max-width: 600px) {
+		.youtube-text {
+		font-size: 15px;
+		margin-top: 20px;
+		}
 	}
 
 /** 
