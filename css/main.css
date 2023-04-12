@@ -1612,10 +1612,40 @@ header .logo a {
     color: #f00;
     margin:  auto;
 	margin-top: 80px;
+	animation: pulse 4s infinite;
+}
+
+@keyframes pulse {
+  0% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.4);
+  }
+  100% {
+    transform: scale(1);
+  }
 }
 
 .play-btn:hover {
     color: #d00;
+	background: transparent;
+	transform:scale(2.0);
+	animation: none;
+	transition-duration: 5s;	
+}
+
+.youtube-text {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: transparent;
+    border: none;
+    font-size: 30px;
+    color: #f00;
+    margin:  auto;
+	margin-top: 70px;
+		
 }
 
 
@@ -1724,21 +1754,21 @@ header .logo a {
 	}
 	
 	@media (max-width: 1024px) {
-	.play-btn {
+	.play-btn, .youtube-text {
 	font-size: 80px;
 	margin-top: 60px;
 	}
 	}
 	
 	@media (max-width: 768px) {
-	.play-btn {
+	.play-btn, .youtube-text {
 	font-size: 60px;
 	margin-top: 40px;
 	}
 	}
 	
 	@media (max-width: 600px) {
-	.play-btn {
+	.play-btn, .youtube-text {
 	font-size: 40px;
 	margin-top: 20px;
 	}
