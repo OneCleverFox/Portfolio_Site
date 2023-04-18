@@ -2825,7 +2825,8 @@ footer .copyright span:last-child::after {
 	display: block;
 	transform: translateX(0);
   }
-  .carousel-item-next,.carousel-item-prev {
+  .carousel-item-next,
+  .carousel-item-prev {
 	position: absolute;
 	top: 0;
   }
