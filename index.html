@@ -4,30 +4,40 @@
 <!--[if (gte IE 9)|!(IE)]><!--><html class="no-js" lang="en"> <!--<![endif]-->
 <head>
 
-   <!--- basic page needs
+   <!--- basic page 
    ================================================== -->
    <meta charset="utf-8">
 	<title>Portfolio | Ralf Jacob</title>
 	<meta name="description" content="">  
 	<meta name="author" content="">
 
-   <!-- mobile specific metas
+   <!-- mobile  metas
    ================================================== -->
 	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+
 
  	<!-- CSS
    ================================================== -->
    <link rel="stylesheet" href="css/base.css">  
    <link rel="stylesheet" href="css/main.css">
    <link rel="stylesheet" href="css/vendor.css">
+
+   <!-- Carousel CSS
+   ================================================== -->
    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
-     
+   <link rel="stylesheet" href="carousel/bootstrap.min.css">
+   
+  <!-- Carousel.js
+   ================================================== -->
+	<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>	
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>  
 
    <!-- script
    ================================================== -->   
 	<script src="js/modernizr.js"></script>
 	<script src="js/pace.min.js"></script>
-    
+
 
    <!-- favicons
 	================================================== -->
@@ -64,6 +74,9 @@
    	</div> <!-- /row --> 		
    </header> <!-- /header -->
 
+
+
+
 	<!-- intro section
    ================================================== -->
    <section id="intro">   
@@ -99,6 +112,9 @@
       </ul> <!-- /intro-social -->      	
 
    </section> <!-- /intro -->
+
+
+
 
 
    <!-- about section
@@ -168,15 +184,15 @@
 				   	<strong>.HTML</strong>
 				   </li>
 				   <li>
-				   	<div class="progress percent35"><span>35%</span></div>
+				   	<div class="progress percent30"><span>30%</span></div>
 				   	<strong>.CSS</strong>
 				   </li>
 				   <li>
-				   	<div class="progress percent40"><span>40%</span></div>
+				   	<div class="progress percent35"><span>35%</span></div>
 				   	<strong>.JS</strong>
 				   </li>
 				   <li>
-				   	<div class="progress percent35"><span>35%</span></div>
+				   	<div class="progress percent55"><span>55%</span></div>
 				   	<strong>.Py</strong>
 				   </li>
 				   <li>
@@ -208,6 +224,10 @@
 
 
    </section> <!-- /process-->    
+
+
+
+
 
 
    <!-- resume Section
@@ -373,6 +393,10 @@
    	</div> <!-- /resume-timeline -->
 		
 	</section> <!-- /features -->
+
+
+
+
 
 
 	<!-- Portfolio Section
@@ -632,47 +656,60 @@
 
 
 	
+
+
+
 	<section id="cta" class="grey-section">
-		<div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
-			<div class="carousel-inner">
-				<div class="carousel-item active">
-					<div class="row cta-content">
-						<div class="col-twelve section-ads">
-							<h2 class="h01"><a>Wisdoms of life</a></h2>
-							<p class="lead">„If you don't change anything, nothing will change!“ – Sparky Anderson.</p>
+		<div class="container">
+			<div id="myCarousel" class="carousel slide" data-ride="carousel">
+				<div class="carousel-inner">
+					<div class="carousel-item active">
+						<div class="row cta-content">
+							<div class="col-twelve section-ads">
+								<h2 class="h01"><a>Wisdoms of life</a></h2>
+								<p class="lead">„No one knows what they can do until they try it.“ – Publilius Syrus.</p>
+							</div>
+						</div>
+					</div>
+					<div class="carousel-item">
+						<div class="row cta-content">
+							<div class="col-twelve section-ads">
+								<h2 class="h01"><a></a></h2>
+								<p class="lead">„If you don't change anything, nothing will change!“ – Sparky Anderson.</p>
+							</div>
+						</div>
+					</div>
+					<div class="carousel-item">
+						<div class="row cta-content">
+							<div class="col-twelve section-ads">
+								<h2 class="h01"><a></a></h2>
+								<p class="lead">"Change is always possible, we only have to want and act accordingly" - Dalai Lama</p>
+							</div>
 						</div>
 					</div>
 				</div>
-				<div class="carousel-item">
-					<div class="row cta-content">
-						<div class="col-twelve section-ads">
-							<h2 class="h01"><a>Second slide</a></h2>
-							<p class="lead">„If you don't change anything, nothing will change!“ – Sparky Anderson.</p>
-						</div>
-					</div>
-				</div>
-				<div class="carousel-item">
-					<div class="row cta-content">
-						<div class="col-twelve section-ads">
-							<h2 class="h01"><a>Third slide</a></h2>
-							<p class="lead">„No one knows what they can do until they try it.“ – Publilius Syrus.</p>
-						</div>
-					</div>
-				</div>
+				<a class="carousel-control-prev" href="#myCarousel" role="button" data-slide="prev">
+					<span class="carousel-control-prev-icon" aria-hidden="true"></span>
+					<span class="sr-only">Previous</span>
+				</a>
+				<a class="carousel-control-next" href="#myCarousel" role="button" data-slide="next">
+					<span class="carousel-control-next-icon" aria-hidden="true"></span>
+					<span class="sr-only">Next</span>
+				</a>
 			</div>
-			<a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
-				<span class="carousel-control-prev-icon" aria-hidden="true"></span>
-				<span class="sr-only">Previous</span>
-			</a>
-			<a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
-				<span class="carousel-control-next-icon" aria-hidden="true"></span>
-				<span class="sr-only">Next</span>
-			</a>
-		</div>
+		</div>		
 	</section>
+	<!-- carousel --> 
 	
 
 	
+
+
+
+
+
+
+
 	<!-- Characteristics Section
    ================================================== -->
 	<section id="services">
@@ -706,7 +743,7 @@
 	         		</p>
 	         		
 	         	</div>
-					</div> <!-- /service -->
+					</div> 
 
 					<div class="service">
 
@@ -750,9 +787,9 @@
 
 	            	<h3>Empatic</h3>
 
-		            <p class="desc">A good team player should also have the ability to react empathically to his fellow human beings.
-						This allows him to get involved with his colleagues, to feel conflicts and to solve them in a goal-oriented manner.
-						A good working atmosphere increases the satisfaction, motivation and productivity of the team and makes working accordingly more effective.
+		            <p class="desc">As a good team player, you should have the ability to empathically relate to those around you. This enables me to adjust to colleagues, sense and address conflicts and, in the best case, solve them in a goal-oriented manner. 
+						This creates a good working atmosphere, which in the end leads to more motivation and satisfaction of the team. <br>
+						And who does not like to work in a motivated team?
 	         		</p> 
 	         		
 	            </div>                

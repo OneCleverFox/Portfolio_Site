@@ -254,7 +254,7 @@
 		      error: function() {
 
 		      	sLoader.fadeOut(); 
-		      	$('#message-warning').html("Something went wrong. Please try again.");
+		      	$('#message-warning').html("SORRY!. Implementation is coming soon");
 		         $('#message-warning').fadeIn();
 
 		      }
@@ -318,10 +318,12 @@
   	/* carousel
    ------------------------------------------------------- */ 
   
-$('.carousel').carousel({
-	interval: 2000
-  })  
   
+  $(document).ready(function(){
+    $('.carousel').carousel();
+  });
 
+
+   
 
 
