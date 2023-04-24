@@ -1,4 +1,9 @@
-Inspired and based from : 
+für meine portolio seite, welche ich für meinen kurs am MIT machen darf, habe ich mir aus verschiedenen quellen inhalte gezogen und für das portfolio genutzt.
+
+
+
+
+Inspired and based: 
 Kards v1.0 Base Stylesheet
 styleshout.com
 
@@ -8,6 +13,7 @@ styleshout.com
 
 https://art.aiseo.ai/
 https://www.deepl.com/translator
+https://unsplash.com/de/
 
 
 
@@ -20,8 +26,7 @@ https://fonts.google.com/specimen/Lora
 https://fonts.google.com/specimen/Poppins
 
 
-
-Recources JavaScript:
+JavaScript:
 
 HTML5 Placeholder jQuery Plugin - v2.1.2
 Copyright (c)2015 Mathias Bynens
