@@ -1,32 +1,30 @@
-für meine portolio seite, welche ich für meinen kurs am MIT machen darf, habe ich mir aus verschiedenen quellen inhalte gezogen und für das portfolio genutzt.
-
-
-
-
 Inspired and based: 
 Kards v1.0 Base Stylesheet
 styleshout.com
 
 
 
---------Source Informations------
+--------Source Informations--------
 
 https://art.aiseo.ai/
 https://www.deepl.com/translator
 https://unsplash.com/de/
 
 
+--------Project Inspiration--------
+https://codingtorque.com/pong-game-using-javascript/
 
-Bootstrap-Link:
+
+--------Bootstrap-Link--------
 https://maxcdn.bootstrapcdn.com
 
 
-Fonts:
+--------Fonts--------
 https://fonts.google.com/specimen/Lora
 https://fonts.google.com/specimen/Poppins
 
 
-JavaScript:
+--------JavaScripts--------
 
 HTML5 Placeholder jQuery Plugin - v2.1.2
 Copyright (c)2015 Mathias Bynens
