@@ -1,10 +1,16 @@
 # Portfolio Website README
 
-This is a portfolio website project created during training at MIT, designed to showcase skills and personality. 
+This is a portfolio website project created during training at MIT, designed to showcase skills and personality.
 
 ## Getting Started
 
 To run the project on your computer, download the files and open the `index.html` file in a web browser. An internet connection is required for full website functionality.
+
+https://onecleverfox.github.io/Portfolio_Site/
+
+## Usage
+
+The website is intended to provide an overview of the creator's skills and personality. Users can navigate through the website to view various projects and get in touch with the creator.
 
 ## Sources
 
